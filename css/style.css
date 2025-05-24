@@ -1,0 +1,427 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ol,
+ul {
+    list-style-type: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+header hr {
+    height: 0.5px;
+    background: #92A5BF;
+    border: none;
+}
+
+.container {
+    padding: 20px 50px;
+    width: 100%;
+}
+
+#Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed !important;
+    z-index: 99999999;
+    top: 0;
+
+    background: #1D4D90;
+}
+
+.logo {
+    color: #fff;
+    font-weight: bold;
+}
+
+.logo img {
+    margin-left: 5px;
+    width: 2rem;
+}
+
+#navbar {
+    display: flex;
+    padding: 10px 0;
+}
+
+#navbar li {
+    margin-left: 15px;
+}
+
+#navbar li a {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 0.8rem;
+    display: inline-block;
+
+    padding: 5px 10px;
+    border-radius: 8px;
+    transition: all ease-in-out 0.3s;
+}
+
+#navbar li .active {
+    background: #fff;
+    color: black;
+}
+
+#navbar li:hover a {
+    background: hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 0%);
+}
+
+#bar {
+    display: none;
+}
+
+#close {
+    display: none;
+}
+
+
+.banner {
+    background: rgb(29, 77, 144);
+    text-align: center;
+    padding-bottom: 30px;
+    margin-top: 88px;
+}
+
+.banner h1 {
+    color: #fff;
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+}
+
+.banner h5 {
+    color: #c1cad6;
+    margin-bottom: 25px;
+}
+
+.banner a {
+    color: #fff;
+    margin: 15px 5px !important;
+    font-weight: 700;
+}
+
+.banner a:last-child {
+    color: #000000;
+    background: #fff;
+    padding: 4px 5px;
+    border-radius: 5px;
+}
+
+.casino_sec {
+    text-align: center;
+    font-weight: 600;
+}
+
+.casino_sec h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.casino_sec p {
+    color: #df1414;
+}
+
+.casino-list {
+    background: #1D4D90;
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    border-radius: 8px;
+    gap: 10px;
+}
+
+.casino-list a img {
+    width: 100%;
+}
+
+.casino-list h6 {
+    columns: #fff;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.casino-list h6 span {
+    color: #c1cad6;
+}
+
+.cas_btn {
+    font-size: 1rem;
+    color: #1D4D90;
+    font-weight: bolder;
+    background: #fff;
+    padding: 12px 12px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.casino-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+}
+.cas_terms{font-size: 0.6rem;color: #fff !important;}
+.trust_part{padding: 20px 0;display: grid;grid-template-columns: repeat(3,1fr);gap: 10px;margin-top: 20px;font-weight: bold;}
+.trust_part h3{text-align: center;font-weight: bold;font-size: 2rem;color: #1D4D90;}
+.trust_part img{width: 100%;margin-top: 15px;}
+.trust_part_con{grid-column: span 2;}
+.ladsluck{padding: 20px 0;font-weight: bold;}
+.ladsluck h3{
+color: #1D4D90;font-size: 2rem;text-align: center;
+}
+.ladsluck p{text-align: center;margin-top: 10px;}
+.luck_itm{padding: 30px 15px;text-align: center;background: #E7EAE8;border-radius: 8px;}
+.luck_itm i{font-size: 3rem;color: #1D4D90;margin-bottom: 15px;}
+.luck_itm h4{font-size: 1.5rem;}
+.luck_itms{display: grid;grid-template-columns: repeat(2,1fr);gap: 15px;margin-top: 20px;}
+.support_part{
+    text-align: center;padding: 30px 15px;font-weight: bold;background: #E7EAE8;margin-top: 20px;
+}
+.support_part h3{font-size: 2rem;color: #1D4D90;
+margin-bottom: 10px;}
+.support_links {text-align: start;}
+.support_links a{color:#1D4D90 ;font-size: 1.2rem;font-weight: bolder;}
+.pay_acc_sec{padding: 30px 15px;text-align: center;font-weight: bold;}
+.pay_acc_sec h3{font-size: 2rem;color: #1D4D90;margin-bottom: 10px;}
+.pay_acc_sec div {text-align: start;}
+.pay_acc_sec div p{margin-bottom: 10px;}
+.pay_acc_sec div p b{color: #1D4D90;font-weight: bolder;}
+.final_Thou{
+    padding: 30px 15px;background: #E7EAE8;margin-top: 20px;text-align: center;font-weight: bold;
+}
+.final_Thou h3{color: #1D4D90;font-size: 2rem; margin-bottom: 10px;}
+
+
+
+
+    .faq-section h3{
+      
+      color: #1D4D90;
+      font-weight: bold;
+      font-size: 2rem;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .faq-item {
+      border-bottom: 1px solid #000000;
+    }
+
+    .faq-question {
+      padding: 1rem;
+      cursor: pointer;
+      background: #1D4D90;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-weight: bold;
+      transition: background 0.3s ease;
+      color: #fff;
+    }
+
+    .faq-question:hover {
+      background: #000000;
+      color: #fff;
+    }
+
+    .faq-question .icon {
+      display: inline-block;
+      transition: transform 0.3s ease;
+    }
+
+    .faq-item.active1 .faq-question .icon {
+      transform: rotate(45deg);
+    }
+
+    .faq-answer {
+      display: none;
+      padding: 1rem;
+      background: #E7EAE8;
+      line-height: 1.6;
+      font-weight: bold;
+    }
+
+    .faq-item.active1 .faq-answer {
+      display: block;
+    }
+
+
+
+footer{
+  background: #1D4D90;
+}
+.footer_link ul {display: flex;align-items: center;flex-wrap: wrap;gap: 60px;justify-content: center;margin-bottom: 20px;}
+.footer_link ul li a{
+    color: #fff;text-transform: uppercase;
+    font-weight: bold;
+}
+.footer_disc{text-align: center;}
+.footer_disc p{text-align: center;font-weight: bold;color: #fff;}
+.footer_disc p a{color: #ffffff;text-decoration: underline;}
+.footer_disc ul{margin: 30px 0;display: flex;justify-content: space-evenly;
+flex-wrap: wrap;gap: 10px;}
+.footer_disc span a,
+.footer_disc span{color: #fff;font-weight: bold;}
+
+/* contact page */
+.contact_page{
+  
+    text-align: center;
+    max-width: 900px;
+  
+
+}
+
+.comm-pad{  margin: 80px  auto 0;}
+.contact_page h2{
+font-size: 2rem;
+font-weight: bold;
+text-transform: uppercase;
+color: #1D4D90;
+}
+.contact_page p{font-weight: bold;}
+
+.contact_page form{
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  gap: 10px;
+  margin-top: 40px;
+  font-size: 1rem;font-weight: bold;
+}
+.contact_page div{display: flex;justify-content: space-evenly;}
+
+.contact_page form textarea,
+.contact_page form input{
+padding: 5px 10px;border-radius: 8px; border: 2px solid #000;transition: all ease-in 0.4s;
+margin-bottom: 18px;}
+.contact_page form textarea:hover,
+.contact_page form input:hover{border: 2px solid #1D4D90;}
+.contact_page form button{display: inline-block;padding: 10px;width: 20%;margin: 0 auto; background: #1D4D90;
+border: none;border-radius: 8px;font-weight: bold;color: #fff;cursor: pointer;}
+/* privacy page */
+.privacy-page{text-align: center;}
+.privacy-page h2{margin-bottom: 10px;font-size: 2rem;color: #1D4D90;}
+.privacy-page p{margin-top: 20px;}
+.privacy-page section{text-align: start;}
+.privacy-page section h3{color: #1D4D90;font-size: 1.6rem;}
+
+/* responsuble_page */
+.responsuble_page{text-align: center}
+
+.responsuble_page h2{font-size: 2rem;color: #1D4D90;text-transform: uppercase;}
+
+.responsuble_page h4,
+.responsuble_page p{margin-top: 10px;}
+.responsuble_page section h4{
+    font-size: 1.2rem;
+    color: #1D4D90;
+}
+.responsuble_page section{
+text-align: start !important;
+
+
+}
+
+/* trems_page */
+.terms_page{
+    text-align: center;
+}
+
+.terms_page h2{font-size: 2rem;color: #1D4D90;text-transform: uppercase;}
+.terms_page h4,
+.terms_page p{margin-top: 10px;}
+ .terms_page section{text-align: start;}
+.terms_page section h3{font-size: 1.2rem;color: #1D4D90;}
+@media only screen and (max-width: 850px) {
+    #navbar {
+        flex-direction: column;
+        position: fixed;
+        height: 100vh;
+        width: 350px;
+        right: -400px;
+        top: 0;
+        background: #1D4D90;
+        box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.849);
+        transition: all ease-in-out 0.4s;
+        z-index: 99999999999;
+    }
+
+    #navbar li:first-child {
+        margin-top: 50px;
+    }
+
+    #navbar li {
+        margin-bottom: 18px;
+    }
+
+    #bar {
+        display: block;
+        padding: 10px 2px;
+        cursor: pointer;
+        color: #fff;
+    }
+
+    #close {
+        display: block;
+        position: absolute;
+        top: 20px;
+        left: 30px;
+        font-size: 20px;
+        cursor: pointer;
+        color: #fff;
+    }
+
+    #navbar.active {
+        right: 0;
+    }
+
+    .container {
+        padding: 20px 20px;
+    }
+
+    .banner {
+        padding-bottom: 30px;
+        margin-top: 76px;
+    }
+    .casino-grid {
+  
+    grid-template-columns: repeat(1, 1fr);
+    
+}
+.trust_part{grid-template-columns: repeat(1,1fr);}
+
+
+.luck_itms{grid-template-columns: repeat(1,1fr);}
+.footer_link ul{gap: 20px;}
+.contact_page div{flex-direction: column;}
+.contact_page div label{display: block;}
+#FirstName,
+#lastName{width: 100%;}
+
+}
